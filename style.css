@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(https://th.bing.com/th/id/R.bf57f2a1222d1f555825d1fa903aa96e?rik=yoc5eQuruWoRcA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2fb%2fb%2f888786-best-new-year-desktop-wallpapers-3840x2160-picture.jpg&ehk=xGfPS0Hf9vQUqHIKlf16ycKA8mkbGL4gpEGZNELn6iY%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+h1
+{
+    font-weight: bold;
+    font-style: italic;
+}
+.count-down-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.count
+{
+    margin:80px 25px;
+}
+.year
+{
+    opacity: 0.8;
+    color: #9D34F9;
+    font-size: 130px;
+    font-style: italic;
+}
+.year:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
